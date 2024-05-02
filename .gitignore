@@ -1,7 +1,10 @@
 .DS_Store
-node_modules/
-dist/
-npm-debug.log
-selenium-debug.log
-test/unit/coverage
-test/e2e/reports
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
